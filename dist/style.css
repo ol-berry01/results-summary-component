@@ -18,6 +18,7 @@ p {
   width: 23.5rem;
   border-radius: 1.5rem;
   overflow: hidden;
+  font-size: 1.125rem;
   display: grid;
   grid-template-columns: 1fr; }
   @media (min-width: 48rem) {
@@ -26,15 +27,16 @@ p {
       height: 32rem;
       grid-template-columns: repeat(2, 1fr); } }
   .card-results, .card-summary {
+    padding: 2.5rem;
+    font-size: 1.125rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; }
   .card-results {
     background-color: #7857ff;
     background: linear-gradient(#7857ff 0%, #2e2be9 100%);
     color: #c8c7ff;
-    padding: 1.5rem;
     border-radius: 1.5rem;
     overflow: hidden;
     text-align: center;
@@ -54,4 +56,19 @@ p {
       font-size: 3.125rem;
       font-weight: 800; }
     .card-results-total, .card-results-description {
+      color: white; }
+  .card-summary {
+    color: #303b5a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .card-summary-items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 1rem; }
+    .card-summary-item {
+      border-radius: 0.625rem; }
+    .card-summary-continue {
+      background-color: #303b5a;
       color: white; }

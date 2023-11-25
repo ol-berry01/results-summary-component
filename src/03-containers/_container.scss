@@ -11,6 +11,7 @@
     width: 23.5rem;
     border-radius: 1.5rem;
     overflow: hidden;
+    font-size: 1.125rem;
     display: grid;
     grid-template-columns: 1fr;
     
@@ -22,9 +23,11 @@
 
     &-results,
     &-summary {
+        padding: 2.5rem;
+        font-size: 1.125rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -32,7 +35,6 @@
         background-color: $lightSlateBlue;
         background: linear-gradient($lightSlateBlue 0%, $lightRoyalBlue 100%);
         color: $lightLavender;
-        padding: 1.5rem;
         border-radius: 1.5rem;
         overflow: hidden;
         text-align: center;
@@ -58,6 +60,29 @@
         
         &-total, 
         &-description {
+            color: $white;
+        }
+    }
+
+    &-summary {
+        color: $darkGrayBlue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-items {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        &-item {
+            border-radius: 0.625rem;
+        }
+
+        &-continue {
+            background-color: $darkGrayBlue;
             color: $white;
         }
     }
