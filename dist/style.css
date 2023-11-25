@@ -63,12 +63,22 @@ p {
     flex-direction: column;
     justify-content: space-between; }
     .card-summary-items {
+      width: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       gap: 1rem; }
     .card-summary-item {
-      border-radius: 0.625rem; }
+      padding: 1.25rem;
+      border-width: 0.125rem;
+      border-radius: 0.625rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .card-summary-item-type {
+        display: flex;
+        align-items: center;
+        gap: 1rem; }
     .card-summary-continue {
       background-color: #303b5a;
       color: white;
