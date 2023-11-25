@@ -1,12 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+// Resets
+@import './01-resets/fonts';
+@import './01-resets/resets';
 
-.container {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+// Containers
+@import './03-containers/container';
