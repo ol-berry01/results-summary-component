@@ -4,3 +4,23 @@
     justify-content: center;
     align-items: center;
 }
+
+.card {
+    width: 23.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    @media (min-width: 48rem) {
+        width: 46rem;
+        height: 32rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    &-results,
+    &-summary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -2,10 +2,29 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Hanken Grotesk", sans-serif; }
+
+p {
+  font-size: 1.125rem; }
 
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.card {
+  width: 23.5rem;
+  display: grid;
+  grid-template-columns: 1fr; }
+  @media (min-width: 48rem) {
+    .card {
+      width: 46rem;
+      height: 32rem;
+      grid-template-columns: repeat(2, 1fr); } }
+  .card-results, .card-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
