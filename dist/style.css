@@ -51,6 +51,7 @@ p {
       align-items: center;
       justify-content: center; }
     .card-results-total {
-      font-size: 3.125rem; }
+      font-size: 3.125rem;
+      font-weight: 800; }
     .card-results-total, .card-results-description {
       color: white; }
