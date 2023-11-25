@@ -36,5 +36,13 @@
         border-radius: 1.5rem;
         overflow: hidden;
         text-align: center;
+
+        &-score {
+            background-color: $VioletBlue;
+            background: linear-gradient($VioletBlue 0%, $PersianBlue 100%);
+            width: 12.5rem;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+        }
     }
 }

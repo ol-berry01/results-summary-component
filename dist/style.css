@@ -38,3 +38,9 @@ p {
     border-radius: 1.5rem;
     overflow: hidden;
     text-align: center; }
+    .card-results-score {
+      background-color: #4e21ca;
+      background: linear-gradient(#4e21ca 0%, rgba(36, 33, 202, 0) 100%);
+      width: 12.5rem;
+      aspect-ratio: 1/1;
+      border-radius: 50%; }
