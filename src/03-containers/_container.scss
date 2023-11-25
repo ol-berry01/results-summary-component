@@ -31,18 +31,33 @@
     &-results {
         background-color: $lightSlateBlue;
         background: linear-gradient($lightSlateBlue 0%, $lightRoyalBlue 100%);
-        color: #ffffff;
+        color: $lightLavender;
         padding: 1.5rem;
         border-radius: 1.5rem;
         overflow: hidden;
         text-align: center;
+        gap: 1.25rem;
 
         &-score {
-            background-color: $VioletBlue;
-            background: linear-gradient($VioletBlue 0%, $PersianBlue 100%);
+            background-color: $violetBlue;
+            background: linear-gradient($violetBlue 0%, $persianBlue 100%);
             width: 12.5rem;
             aspect-ratio: 1/1;
+            margin: 1.25rem 0;
             border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        &-total {
+            font-size: 3.125rem;
+        }
+        
+        &-total, 
+        &-description {
+            color: $white;
         }
     }
 }

@@ -33,14 +33,24 @@ p {
   .card-results {
     background-color: #7857ff;
     background: linear-gradient(#7857ff 0%, #2e2be9 100%);
-    color: #ffffff;
+    color: #c8c7ff;
     padding: 1.5rem;
     border-radius: 1.5rem;
     overflow: hidden;
-    text-align: center; }
+    text-align: center;
+    gap: 1.25rem; }
     .card-results-score {
       background-color: #4e21ca;
       background: linear-gradient(#4e21ca 0%, rgba(36, 33, 202, 0) 100%);
       width: 12.5rem;
       aspect-ratio: 1/1;
-      border-radius: 50%; }
+      margin: 1.25rem 0;
+      border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .card-results-total {
+      font-size: 3.125rem; }
+    .card-results-total, .card-results-description {
+      color: white; }
