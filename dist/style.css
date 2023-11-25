@@ -16,6 +16,8 @@ p {
 
 .card {
   width: 23.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr; }
   @media (min-width: 48rem) {
@@ -28,3 +30,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+  .card-results {
+    background-color: #7857ff;
+    background: linear-gradient(#7857ff 0%, #2e2be9 100%);
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    text-align: center; }
